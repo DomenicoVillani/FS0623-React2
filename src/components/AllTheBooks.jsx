@@ -12,7 +12,7 @@ function Books() {
                     return (
                         <Col xs={12} sm={6} md={3} key={libro.asin}>
                             <Card>
-                                <Card.Img variant="top" src={libro.img} />
+                                <Card.Img variant="top" src={libro.img} style={{height: '500px', width: 'auto'}}/>
                                 <Card.Body>
                                     <Card.Title>{libro.title}</Card.Title>
                                     <Card.Text>{libro.price}</Card.Text>
