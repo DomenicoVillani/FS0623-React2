@@ -15,7 +15,7 @@ function Books() {
                                 <Card.Img variant="top" src={libro.img} style={{height: '500px', width: 'auto'}}/>
                                 <Card.Body>
                                     <Card.Title>{libro.title}</Card.Title>
-                                    <Card.Text>{libro.price}</Card.Text>
+                                    <Card.Text>Costo: {libro.price}$</Card.Text>
                                     <Card.Text>Categoria: {libro.category}</Card.Text>
                                 </Card.Body>
                             </Card>
